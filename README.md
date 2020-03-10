@@ -15,3 +15,9 @@ Though all donations are updated in Salesforce, individual donations are done th
   3. Do email campaigns have any effect on individual donations?
   4. Do email campaigns have any effect on job seekers creating profiles on the Hire Heroes USA Job Board?
   5. Is there a relationship between certain days of the week, times in the day, or months, or time of year and when employers and job se
+
+
+## Folder structure
+
+* ![image](https://user-images.githubusercontent.com/6872080/76349690-db51f800-62e0-11ea-89f1-431070a42e31.png)
+* Extract the zip to GivenContent Folder and then extract each of the data zip files to a folder inside GivenContent/Data
