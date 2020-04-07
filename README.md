@@ -66,11 +66,11 @@ Though all donations are updated in Salesforce, individual donations are done th
       - <img src="https://user-images.githubusercontent.com/6872080/78729000-e2335100-7906-11ea-9b8e-5d3d19fd9e8b.png" height="300">
       - <img src="https://user-images.githubusercontent.com/6872080/78729073-13138600-7907-11ea-90fb-09995508b3d7.png" height="300">
 
-### Modelling
-* Since we found that most of the data we have is categorical, it makes it harder to build predictive models specially regression models on variable of interest like Amount secured in a campaign.
-* Also there are variables like expectedrevenue etc which are highly correlated and therefore lead to biased predictions.
+### Modeling
+* Since we found that **most of the data we have is categorical**, it makes it harder to build predictive models specially regression models on variable of interest like Amount secured in a campaign.
+* Also there are variables like expectedrevenue etc which are **highly correlated** and therefore lead to biased predictions.
   - On removing such variables the r^2 values drop considerably from around .97 to 0.002 or even negative for a cross validated model selection.
-* We might try clustering but again the number of categorical variables makes using common distance metrics like eucleadian distances very difficult.
+* We might **try clustering** but again the number of categorical variables makes using common distance metrics like eucleadian distances very difficult.
 
 
 ## Folder structure
