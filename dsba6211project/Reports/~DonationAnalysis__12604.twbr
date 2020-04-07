@@ -1,0 +1,3567 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0718.1543                               -->
+<workbook source-build='2019.2.2 (20192.19.0718.1543)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='SalesForce_Opportunity' inline='true' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SalesForce_Opportunity' name='textscan.0u9bb3v0tolxk71god9ku1h4d13z'>
+            <connection class='textscan' directory='C:/Users/Abhijeet/Documents/GitHub/dsba6211project/GivenContent/Data' filename='SalesForce_Opportunity.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0u9bb3v0tolxk71god9ku1h4d13z' name='SalesForce_Opportunity.csv' table='[SalesForce_Opportunity#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Id' ordinal='0' />
+            <column datatype='integer' name='IsDeleted' ordinal='1' />
+            <column datatype='string' name='AccountId' ordinal='2' />
+            <column datatype='string' name='RecordTypeId' ordinal='3' />
+            <column datatype='integer' name='IsPrivate' ordinal='4' />
+            <column datatype='string' name='StageName' ordinal='5' />
+            <column datatype='integer' name='StageSortOrder' ordinal='6' />
+            <column datatype='real' name='Amount' ordinal='7' />
+            <column datatype='integer' name='Probability' ordinal='8' />
+            <column datatype='real' name='ExpectedRevenue' ordinal='9' />
+            <column datatype='integer' name='TotalOpportunityQuantity' ordinal='10' />
+            <column datatype='datetime' name='CloseDate' ordinal='11' />
+            <column datatype='string' name='Type' ordinal='12' />
+            <column datatype='string' name='NextStep' ordinal='13' />
+            <column datatype='string' name='LeadSource' ordinal='14' />
+            <column datatype='integer' name='IsClosed' ordinal='15' />
+            <column datatype='integer' name='IsWon' ordinal='16' />
+            <column datatype='string' name='ForecastCategory' ordinal='17' />
+            <column datatype='string' name='ForecastCategoryName' ordinal='18' />
+            <column datatype='string' name='CampaignId' ordinal='19' />
+            <column datatype='integer' name='HasOpportunityLineItem' ordinal='20' />
+            <column datatype='string' name='Pricebook2Id' ordinal='21' />
+            <column datatype='string' name='OwnerId' ordinal='22' />
+            <column datatype='datetime' name='CreatedDate' ordinal='23' />
+            <column datatype='string' name='CreatedById' ordinal='24' />
+            <column datatype='datetime' name='LastModifiedDate' ordinal='25' />
+            <column datatype='string' name='LastModifiedById' ordinal='26' />
+            <column datatype='datetime' name='SystemModstamp' ordinal='27' />
+            <column datatype='datetime' name='LastActivityDate' ordinal='28' />
+            <column datatype='datetime' name='LastStageChangeDate' ordinal='29' />
+            <column datatype='integer' name='FiscalYear' ordinal='30' />
+            <column datatype='integer' name='FiscalQuarter' ordinal='31' />
+            <column datatype='string' name='Payment_Type__c' ordinal='32' />
+            <column datatype='string' name='Check_Date__c' ordinal='33' />
+            <column datatype='string' name='Dedication_Acknowledgement_Type__c' ordinal='34' />
+            <column datatype='integer' name='Anonymous__c' ordinal='35' />
+            <column datatype='integer' name='Tax_Letter_Not_Needed__c' ordinal='36' />
+            <column datatype='integer' name='Monthly_Donation__c' ordinal='37' />
+            <column datatype='string' name='Matching_Status__c' ordinal='38' />
+            <column datatype='string' name='Lead_Conversion__c' ordinal='39' />
+            <column datatype='integer' name='Do_Not_Call__c' ordinal='40' />
+            <column datatype='integer' name='Do_Not_Mail__c' ordinal='41' />
+            <column datatype='integer' name='Email_Opt_Out__c' ordinal='42' />
+            <column datatype='string' name='Gender__c' ordinal='43' />
+            <column datatype='string' name='Donor_Status__c' ordinal='44' />
+            <column datatype='string' name='Date_of_Donation__c' ordinal='45' />
+            <column datatype='string' name='Acknowledgement__c' ordinal='46' />
+            <column datatype='string' name='Planned_Giving__c' ordinal='47' />
+            <column datatype='string' name='Type_of_Planned_Giving__c' ordinal='48' />
+            <column datatype='string' name='Value__c' ordinal='49' />
+            <column datatype='string' name='Donor_Acknowledgement__c' ordinal='50' />
+            <column datatype='string' name='Donation_Type__c' ordinal='51' />
+            <column datatype='datetime' name='Tax_Letter__c' ordinal='52' />
+            <column datatype='string' name='Company_listed_on_HHUSA_website__c' ordinal='53' />
+            <column datatype='string' name='Social_Media_Date__c' ordinal='54' />
+            <column datatype='string' name='npe01__Contact_Id_for_Role__c' ordinal='55' />
+            <column datatype='integer' name='npe01__Do_Not_Automatically_Create_Payment__c' ordinal='56' />
+            <column datatype='real' name='npe01__Amount_Written_Off__c' ordinal='57' />
+            <column datatype='integer' name='npe01__Number_of_Payments__c' ordinal='58' />
+            <column datatype='real' name='npe01__Payments_Made__c' ordinal='59' />
+            <column datatype='string' name='npsp__Primary_Contact__c' ordinal='60' />
+            <column datatype='integer' name='npsp__Requested_Amount__c' ordinal='61' />
+            <column datatype='string' name='Program_Designation__c' ordinal='62' />
+            <column datatype='datetime' name='Payment_Date__c' ordinal='63' />
+            <column datatype='string' name='Payment_Method__c' ordinal='64' />
+            <column datatype='integer' name='stayclassy__Anonymous_Donor__c' ordinal='65' />
+            <column datatype='string' name='stayclassy__Campaign__c' ordinal='66' />
+            <column datatype='string' name='stayclassy__Discount_Code__c' ordinal='67' />
+            <column datatype='integer' name='stayclassy__Discount_Total__c' ordinal='68' />
+            <column datatype='string' name='stayclassy__Fundraising_Page__c' ordinal='69' />
+            <column datatype='string' name='stayclassy__Fundraising_Team__c' ordinal='70' />
+            <column datatype='integer' name='stayclassy__Hide_Donation_Amount__c' ordinal='71' />
+            <column datatype='integer' name='stayclassy__Hide_Donation_Comment__c' ordinal='72' />
+            <column datatype='string' name='stayclassy__PaymentID__c' ordinal='73' />
+            <column datatype='string' name='stayclassy__Payment_Method__c' ordinal='74' />
+            <column datatype='string' name='stayclassy__Transaction_Type__c' ordinal='75' />
+            <column datatype='string' name='stayclassy__cc_country__c' ordinal='76' />
+            <column datatype='string' name='stayclassy__cc_state__c' ordinal='77' />
+            <column datatype='string' name='stayclassy__dedication_contact_state__c' ordinal='78' />
+            <column datatype='string' name='stayclassy__dedication_type__c' ordinal='79' />
+            <column datatype='real' name='stayclassy__donation_total__c' ordinal='80' />
+            <column datatype='integer' name='stayclassy__host_total__c' ordinal='81' />
+            <column datatype='datetime' name='stayclassy__order_date__c' ordinal='82' />
+            <column datatype='datetime' name='stayclassy__refund_date__c' ordinal='83' />
+            <column datatype='integer' name='stayclassy__sc_order_id__c' ordinal='84' />
+            <column datatype='string' name='stayclassy__sf_contact_id__c' ordinal='85' />
+            <column datatype='string' name='stayclassy__sf_designation_id__c' ordinal='86' />
+            <column datatype='string' name='stayclassy__sf_recurring_id__c' ordinal='87' />
+            <column datatype='real' name='stayclassy__transaction_total__c' ordinal='88' />
+            <column datatype='integer' name='npsp__Fair_Market_Value__c' ordinal='89' />
+            <column datatype='integer' name='npsp__In_Kind_Donor_Declared_Value__c' ordinal='90' />
+            <column datatype='string' name='npsp__In_Kind_Type__c' ordinal='91' />
+            <column datatype='real' name='stayclassy__Classy_Order_Total__c' ordinal='92' />
+            <column datatype='string' name='Donation_Received__c' ordinal='93' />
+            <column datatype='string' name='Grant_Restriction_Type__c' ordinal='94' />
+            <column datatype='integer' name='Anonymous_gift__c' ordinal='95' />
+            <column datatype='datetime' name='Date_Thank_You_Letter_Sent__c' ordinal='96' />
+            <column datatype='integer' name='Monthly_Donor__c' ordinal='97' />
+            <column datatype='string' name='npsp__Ask_Date__c' ordinal='98' />
+            <column datatype='string' name='npsp__Closed_Lost_Reason__c' ordinal='99' />
+            <column datatype='string' name='npsp__Gift_Strategy__c' ordinal='100' />
+            <column datatype='string' name='npsp__Qualified_Date__c' ordinal='101' />
+            <column datatype='integer' name='Thank_you_NOT_needed__c' ordinal='102' />
+            <column datatype='integer' name='Foundation_or_Trust__c' ordinal='103' />
+            <column datatype='integer' name='stayclassy__Classy_Campaign_ID__c' ordinal='104' />
+            <column datatype='integer' name='stayclassy__Classy_Designation_ID__c' ordinal='105' />
+            <column datatype='integer' name='stayclassy__Classy_Fundraising_Page_ID__c' ordinal='106' />
+            <column datatype='integer' name='stayclassy__Classy_Fundraising_Team_ID__c' ordinal='107' />
+            <column datatype='integer' name='stayclassy__Classy_Member_ID__c' ordinal='108' />
+            <column datatype='string' name='stayclassy__Currency_Code__c' ordinal='109' />
+            <column datatype='string' name='stayclassy__Transaction_Status__c' ordinal='110' />
+            <column datatype='real' name='stayclassy__Charged_Classy_Fees_Amount__c' ordinal='111' />
+            <column datatype='string' name='stayclassy__Charged_Currency_Code__c' ordinal='112' />
+            <column datatype='real' name='stayclassy__Charged_Fees_Amount__c' ordinal='113' />
+            <column datatype='real' name='stayclassy__Charged_Processor_Fees_Amount__c' ordinal='114' />
+            <column datatype='real' name='stayclassy__Charged_Total_Gross_Amount__c' ordinal='115' />
+            <column datatype='string' name='stayclassy__Raw_Currency_Code__c' ordinal='116' />
+            <column datatype='real' name='stayclassy__Raw_Donation_Gross_Amount__c' ordinal='117' />
+            <column datatype='string' name='stayclassy__Raw_Donation_Net_Amount__c' ordinal='118' />
+            <column datatype='integer' name='stayclassy__Raw_Overhead_Net_Amount__c' ordinal='119' />
+            <column datatype='real' name='stayclassy__Raw_Total_Gross_Amount__c' ordinal='120' />
+            <column datatype='integer' name='Event_Donation__c' ordinal='121' />
+            <column datatype='integer' name='Event_Sponsorship__c' ordinal='122' />
+            <column datatype='string' name='Sponsorship_Type__c' ordinal='123' />
+            <column datatype='string' name='Event_Donation_Type__c' ordinal='124' />
+            <column datatype='datetime' name='Date_Letter_Sent__c' ordinal='125' />
+            <column datatype='integer' name='Tax_Letter_Sent_Through_Classy__c' ordinal='126' />
+            <column datatype='string' name='Recurring_Donation_Frequency__c' ordinal='127' />
+            <column datatype='string' name='Tier__c' ordinal='128' />
+            <column datatype='real' name='stayclassy__Applied_FOT_Percent__c' ordinal='129' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsDeleted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IsDeleted]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>IsDeleted</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccountId</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AccountId]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>AccountId</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RecordTypeId</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RecordTypeId]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>RecordTypeId</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsPrivate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IsPrivate]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>IsPrivate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StageName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StageName]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>StageName</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StageSortOrder</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[StageSortOrder]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>StageSortOrder</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Amount]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Amount</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Probability</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Probability]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Probability</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ExpectedRevenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ExpectedRevenue]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>ExpectedRevenue</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalOpportunityQuantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotalOpportunityQuantity]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>TotalOpportunityQuantity</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CloseDate</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[CloseDate]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>CloseDate</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NextStep</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NextStep]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>NextStep</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LeadSource</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LeadSource]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>LeadSource</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsClosed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IsClosed]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>IsClosed</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsWon</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IsWon]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>IsWon</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ForecastCategory</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ForecastCategory]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>ForecastCategory</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ForecastCategoryName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ForecastCategoryName]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>ForecastCategoryName</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CampaignId</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CampaignId]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>CampaignId</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HasOpportunityLineItem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HasOpportunityLineItem]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>HasOpportunityLineItem</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pricebook2Id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pricebook2Id]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Pricebook2Id</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OwnerId</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OwnerId]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>OwnerId</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CreatedDate</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[CreatedDate]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>CreatedDate</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CreatedById</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CreatedById]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>CreatedById</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastModifiedDate</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[LastModifiedDate]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>LastModifiedDate</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastModifiedById</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LastModifiedById]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>LastModifiedById</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SystemModstamp</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[SystemModstamp]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>SystemModstamp</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastActivityDate</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[LastActivityDate]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>LastActivityDate</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastStageChangeDate</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[LastStageChangeDate]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>LastStageChangeDate</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FiscalYear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FiscalYear]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>FiscalYear</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FiscalQuarter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FiscalQuarter]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>FiscalQuarter</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment_Type__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Payment_Type__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Payment_Type__c</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Check_Date__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Check_Date__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Check_Date__c</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dedication_Acknowledgement_Type__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Dedication_Acknowledgement_Type__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Dedication_Acknowledgement_Type__c</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anonymous__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anonymous__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Anonymous__c</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tax_Letter_Not_Needed__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tax_Letter_Not_Needed__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Tax_Letter_Not_Needed__c</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly_Donation__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monthly_Donation__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Monthly_Donation__c</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Matching_Status__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Matching_Status__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Matching_Status__c</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lead_Conversion__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Lead_Conversion__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Lead_Conversion__c</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do_Not_Call__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Do_Not_Call__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Do_Not_Call__c</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do_Not_Mail__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Do_Not_Mail__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Do_Not_Mail__c</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Email_Opt_Out__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Email_Opt_Out__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Email_Opt_Out__c</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Gender__c</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Donor_Status__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Donor_Status__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Donor_Status__c</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date_of_Donation__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Date_of_Donation__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Date_of_Donation__c</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acknowledgement__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Acknowledgement__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Acknowledgement__c</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Planned_Giving__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Planned_Giving__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Planned_Giving__c</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type_of_Planned_Giving__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type_of_Planned_Giving__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Type_of_Planned_Giving__c</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Value__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Value__c</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Donor_Acknowledgement__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Donor_Acknowledgement__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Donor_Acknowledgement__c</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Donation_Type__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Donation_Type__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Donation_Type__c</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tax_Letter__c</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Tax_Letter__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Tax_Letter__c</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company_listed_on_HHUSA_website__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company_listed_on_HHUSA_website__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Company_listed_on_HHUSA_website__c</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social_Media_Date__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Social_Media_Date__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Social_Media_Date__c</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npe01__Contact_Id_for_Role__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npe01__Contact_Id_for_Role__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npe01__Contact_Id_for_Role__c</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npe01__Do_Not_Automatically_Create_Payment__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[npe01__Do_Not_Automatically_Create_Payment__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npe01__Do_Not_Automatically_Create_Payment__c</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npe01__Amount_Written_Off__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[npe01__Amount_Written_Off__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npe01__Amount_Written_Off__c</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npe01__Number_of_Payments__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[npe01__Number_of_Payments__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npe01__Number_of_Payments__c</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npe01__Payments_Made__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[npe01__Payments_Made__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npe01__Payments_Made__c</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npsp__Primary_Contact__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npsp__Primary_Contact__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npsp__Primary_Contact__c</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npsp__Requested_Amount__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[npsp__Requested_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npsp__Requested_Amount__c</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Program_Designation__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Program_Designation__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Program_Designation__c</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment_Date__c</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Payment_Date__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Payment_Date__c</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Payment_Method__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Payment_Method__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Payment_Method__c</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Anonymous_Donor__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Anonymous_Donor__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Anonymous_Donor__c</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Campaign__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Campaign__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Campaign__c</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Discount_Code__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Discount_Code__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Discount_Code__c</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Discount_Total__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Discount_Total__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Discount_Total__c</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Fundraising_Page__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Fundraising_Page__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Fundraising_Page__c</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Fundraising_Team__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Fundraising_Team__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Fundraising_Team__c</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Hide_Donation_Amount__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Hide_Donation_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Hide_Donation_Amount__c</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Hide_Donation_Comment__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Hide_Donation_Comment__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Hide_Donation_Comment__c</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__PaymentID__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__PaymentID__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__PaymentID__c</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Payment_Method__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Payment_Method__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Payment_Method__c</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Transaction_Type__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Transaction_Type__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Transaction_Type__c</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__cc_country__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__cc_country__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__cc_country__c</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__cc_state__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__cc_state__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__cc_state__c</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__dedication_contact_state__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__dedication_contact_state__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__dedication_contact_state__c</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__dedication_type__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__dedication_type__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__dedication_type__c</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__donation_total__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__donation_total__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__donation_total__c</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__host_total__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__host_total__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__host_total__c</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__order_date__c</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[stayclassy__order_date__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__order_date__c</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__refund_date__c</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[stayclassy__refund_date__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__refund_date__c</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__sc_order_id__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__sc_order_id__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__sc_order_id__c</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__sf_contact_id__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__sf_contact_id__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__sf_contact_id__c</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__sf_designation_id__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__sf_designation_id__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__sf_designation_id__c</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__sf_recurring_id__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__sf_recurring_id__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__sf_recurring_id__c</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__transaction_total__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__transaction_total__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__transaction_total__c</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npsp__Fair_Market_Value__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[npsp__Fair_Market_Value__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npsp__Fair_Market_Value__c</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npsp__In_Kind_Donor_Declared_Value__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[npsp__In_Kind_Donor_Declared_Value__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npsp__In_Kind_Donor_Declared_Value__c</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npsp__In_Kind_Type__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npsp__In_Kind_Type__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npsp__In_Kind_Type__c</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Classy_Order_Total__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__Classy_Order_Total__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Classy_Order_Total__c</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Donation_Received__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Donation_Received__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Donation_Received__c</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grant_Restriction_Type__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Grant_Restriction_Type__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Grant_Restriction_Type__c</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anonymous_gift__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anonymous_gift__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Anonymous_gift__c</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date_Thank_You_Letter_Sent__c</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Date_Thank_You_Letter_Sent__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Date_Thank_You_Letter_Sent__c</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly_Donor__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monthly_Donor__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Monthly_Donor__c</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npsp__Ask_Date__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npsp__Ask_Date__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npsp__Ask_Date__c</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npsp__Closed_Lost_Reason__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npsp__Closed_Lost_Reason__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npsp__Closed_Lost_Reason__c</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npsp__Gift_Strategy__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npsp__Gift_Strategy__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npsp__Gift_Strategy__c</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>npsp__Qualified_Date__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[npsp__Qualified_Date__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>npsp__Qualified_Date__c</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thank_you_NOT_needed__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Thank_you_NOT_needed__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Thank_you_NOT_needed__c</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Foundation_or_Trust__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Foundation_or_Trust__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Foundation_or_Trust__c</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Classy_Campaign_ID__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Classy_Campaign_ID__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Classy_Campaign_ID__c</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Classy_Designation_ID__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Classy_Designation_ID__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Classy_Designation_ID__c</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Classy_Fundraising_Page_ID__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Classy_Fundraising_Page_ID__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Classy_Fundraising_Page_ID__c</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Classy_Fundraising_Team_ID__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Classy_Fundraising_Team_ID__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Classy_Fundraising_Team_ID__c</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Classy_Member_ID__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Classy_Member_ID__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Classy_Member_ID__c</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Currency_Code__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Currency_Code__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Currency_Code__c</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Transaction_Status__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Transaction_Status__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Transaction_Status__c</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Charged_Classy_Fees_Amount__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__Charged_Classy_Fees_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Charged_Classy_Fees_Amount__c</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Charged_Currency_Code__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Charged_Currency_Code__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Charged_Currency_Code__c</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Charged_Fees_Amount__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__Charged_Fees_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Charged_Fees_Amount__c</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Charged_Processor_Fees_Amount__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__Charged_Processor_Fees_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Charged_Processor_Fees_Amount__c</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Charged_Total_Gross_Amount__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__Charged_Total_Gross_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Charged_Total_Gross_Amount__c</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Raw_Currency_Code__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Raw_Currency_Code__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Raw_Currency_Code__c</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Raw_Donation_Gross_Amount__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__Raw_Donation_Gross_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Raw_Donation_Gross_Amount__c</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Raw_Donation_Net_Amount__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stayclassy__Raw_Donation_Net_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Raw_Donation_Net_Amount__c</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Raw_Overhead_Net_Amount__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stayclassy__Raw_Overhead_Net_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Raw_Overhead_Net_Amount__c</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Raw_Total_Gross_Amount__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__Raw_Total_Gross_Amount__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Raw_Total_Gross_Amount__c</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event_Donation__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Event_Donation__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Event_Donation__c</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event_Sponsorship__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Event_Sponsorship__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Event_Sponsorship__c</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sponsorship_Type__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sponsorship_Type__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Sponsorship_Type__c</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event_Donation_Type__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Event_Donation_Type__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Event_Donation_Type__c</remote-alias>
+            <ordinal>124</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date_Letter_Sent__c</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Date_Letter_Sent__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Date_Letter_Sent__c</remote-alias>
+            <ordinal>125</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tax_Letter_Sent_Through_Classy__c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tax_Letter_Sent_Through_Classy__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Tax_Letter_Sent_Through_Classy__c</remote-alias>
+            <ordinal>126</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recurring_Donation_Frequency__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Recurring_Donation_Frequency__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Recurring_Donation_Frequency__c</remote-alias>
+            <ordinal>127</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tier__c</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tier__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>Tier__c</remote-alias>
+            <ordinal>128</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stayclassy__Applied_FOT_Percent__c</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stayclassy__Applied_FOT_Percent__c]</local-name>
+            <parent-name>[SalesForce_Opportunity.csv]</parent-name>
+            <remote-alias>stayclassy__Applied_FOT_Percent__c</remote-alias>
+            <ordinal>129</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Account Id' datatype='string' name='[AccountId]' role='dimension' type='nominal' />
+      <column caption='AmountByTotalCampains' datatype='real' name='[Calculation_1106196694746959872]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Amount])/ COUNT([CampaignId])' />
+      </column>
+      <column caption='IsGrant' datatype='boolean' name='[Calculation_1106196694754861060]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([Donation_Type__c] , &apos;Grant&apos;) THEN TRUE ELSE FALSE END' />
+      </column>
+      <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+      <column caption='Close Date' datatype='datetime' name='[CloseDate]' role='dimension' type='ordinal' />
+      <column caption='Created By Id' datatype='string' name='[CreatedById]' role='dimension' type='nominal' />
+      <column caption='Created Date' datatype='datetime' name='[CreatedDate]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Donation_Type__c]' role='dimension' type='nominal' />
+      <column caption='Expected Revenue' datatype='real' name='[ExpectedRevenue]' role='measure' type='quantitative' />
+      <column caption='Fiscal Quarter' datatype='integer' name='[FiscalQuarter]' role='dimension' type='quantitative' />
+      <column caption='Fiscal Year' datatype='integer' name='[FiscalYear]' role='dimension' type='quantitative' />
+      <column caption='Forecast Category Name' datatype='string' name='[ForecastCategoryName]' role='dimension' type='nominal' />
+      <column caption='Forecast Category' datatype='string' name='[ForecastCategory]' role='dimension' type='nominal' />
+      <column caption='Has Opportunity Line Item' datatype='integer' name='[HasOpportunityLineItem]' role='measure' type='quantitative' />
+      <column caption='Is Closed' datatype='integer' name='[IsClosed]' role='measure' type='quantitative' />
+      <column caption='Is Deleted' datatype='integer' name='[IsDeleted]' role='measure' type='quantitative' />
+      <column caption='Is Private' datatype='integer' name='[IsPrivate]' role='measure' type='quantitative' />
+      <column caption='Is Won' datatype='integer' name='[IsWon]' role='measure' type='quantitative' />
+      <column caption='Last Activity Date' datatype='datetime' name='[LastActivityDate]' role='dimension' type='ordinal' />
+      <column caption='Last Modified By Id' datatype='string' name='[LastModifiedById]' role='dimension' type='nominal' />
+      <column caption='Last Modified Date' datatype='datetime' name='[LastModifiedDate]' role='dimension' type='ordinal' />
+      <column caption='Last Stage Change Date' datatype='datetime' name='[LastStageChangeDate]' role='dimension' type='ordinal' />
+      <column caption='Lead Source' datatype='string' name='[LeadSource]' role='dimension' type='nominal' />
+      <column caption='Next Step' datatype='string' name='[NextStep]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Owner Id' datatype='string' name='[OwnerId]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Payment_Method__c]' role='dimension' type='nominal' />
+      <column caption='Record Type Id' datatype='string' name='[RecordTypeId]' role='dimension' type='nominal' />
+      <column caption='Stage Name' datatype='string' name='[StageName]' role='dimension' type='nominal' />
+      <column caption='Stage Sort Order' datatype='integer' name='[StageSortOrder]' role='measure' type='quantitative' />
+      <column caption='System Modstamp' datatype='datetime' name='[SystemModstamp]' role='dimension' type='ordinal' />
+      <column caption='Total Opportunity Quantity' datatype='integer' name='[TotalOpportunityQuantity]' role='measure' type='quantitative' />
+      <column caption='Stayclassy__Cc_Country__C' datatype='string' name='[stayclassy__cc_country__c]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Stayclassy__Cc_State__C' datatype='string' name='[stayclassy__cc_state__c]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Stayclassy__Dedication_Contact_State__C' datatype='string' name='[stayclassy__dedication_contact_state__c]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Stayclassy__Dedication_Type__C' datatype='string' name='[stayclassy__dedication_type__c]' role='dimension' type='nominal' />
+      <column caption='Stayclassy__Donation_Total__C' datatype='real' name='[stayclassy__donation_total__c]' role='measure' type='quantitative' />
+      <column caption='Stayclassy__Host_Total__C' datatype='integer' name='[stayclassy__host_total__c]' role='measure' type='quantitative' />
+      <column caption='Stayclassy__Order_Date__C' datatype='datetime' name='[stayclassy__order_date__c]' role='dimension' type='ordinal' />
+      <column caption='Stayclassy__Refund_Date__C' datatype='datetime' name='[stayclassy__refund_date__c]' role='dimension' type='ordinal' />
+      <column caption='Stayclassy__Sc_Order_Id__C' datatype='integer' name='[stayclassy__sc_order_id__c]' role='measure' type='quantitative' />
+      <column caption='Stayclassy__Sf_Contact_Id__C' datatype='string' name='[stayclassy__sf_contact_id__c]' role='dimension' type='nominal' />
+      <column caption='Stayclassy__Sf_Designation_Id__C' datatype='string' name='[stayclassy__sf_designation_id__c]' role='dimension' type='nominal' />
+      <column caption='Stayclassy__Sf_Recurring_Id__C' datatype='string' name='[stayclassy__sf_recurring_id__c]' role='dimension' type='nominal' />
+      <column caption='Stayclassy__Transaction_Total__C' datatype='real' name='[stayclassy__transaction_total__c]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1106196694754861060]' derivation='None' name='[none:Calculation_1106196694754861060:nk]' pivot='key' type='nominal' />
+      <column-instance column='[CampaignId]' derivation='None' name='[none:CampaignId:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Donation_Type__c]' derivation='None' name='[none:Donation_Type__c:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Payment_Method__c]' derivation='None' name='[none:Payment_Method__c:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.556643' measure-ordering='alphabetic' measure-percentage='0.443357' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Payment_Method__c:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Credit Card&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;At the Event&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mastercard&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Discover&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cash&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;77601&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;VISA - EFT&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Check&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Matching Gift&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Payment - WebLink&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Wire Transfer&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Electronic Funds Transfer&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Comped guest no paymnent&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;American Express&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Visa&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Master Card - EFT&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Amex - EFT&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:CampaignId:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;7010z000001D23zAAC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;7010z000001D6cHAAS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;70138000000jOmnAAE&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;70138000000jPOUAA2&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;70138000000rn4eAAA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;70138000000y8XiAAI&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;70138000000zTGMAA2&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;70138000000zYmXAAU&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;70138000001BkJ7AAK&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;70138000001MG9xAAG&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;70150000000brFqAAI&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;7010z000001D1ZpAAK&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;7010z000001D7WFAA0&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;70138000000eNsBAAU&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;70138000000jPO0AAM&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;70138000000rmleAAA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;70138000000y8quAAA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;70138000000zc1DAAQ&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;70138000000zWuzAAE&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;70138000001BcHEAA0&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;70138000001MCJFAA4&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;70138000001QJ1DAAW&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;7010z000001D3N2AAK&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;7010z000001D8DKAA0&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;70138000000eNXrAAM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;70138000000jPOjAAM&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;70138000000rmWZAAY&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;70138000000y8svAAA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;70138000000zcvWAAQ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;70138000000zXDSAA2&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;70138000001BhCCAA0&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;70138000001MCPhAAO&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;70138000001QKw2AAG&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;7010z000001D6FWAA0&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;7010z000001D83tAAC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;70138000000jPNbAAM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;70138000000jPPmAAM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;70138000000y8mdAAA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;70138000000y9GQAAY&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;70138000000zaoKAAQ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;70138000000zUIyAAM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;70138000000zZX4AAM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;70138000001BlcnAAC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;70138000001MHqTAAW&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;7010z000001D24YAAS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;7010z000001D6ebAAC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;70138000000jOrsAAE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;70138000000jPOyAAM&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;70138000000rn6VAAQ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;70138000000y9ICAAY&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;70138000000zTSxAAM&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;70138000000zYt4AAE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;70138000001BkKPAA0&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;70138000001MGA2AAO&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;70150000000cUVyAAM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;7010z000001D4YLAA0&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;7010z000001D8p0AAC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;70138000000eNYkAAM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;70138000000jPOKAA2&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;70138000000rmXIAAY&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;70138000000y8sWAAQ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;70138000000zd02AAA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;70138000000zXh8AAE&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;70138000001BhdhAAC&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;70138000001ME0lAAG&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;70138000001QLnUAAW&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;7010z000001D7SDAA0&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70138000000eMLkAAM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70138000000jPNvAAM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70138000000rm4OAAQ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70138000000y8qaAAA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70138000000zc0PAAQ&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70138000000zWdPAAU&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70138000001BbFMAA0&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70138000001E1taAAC&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70138000001QIvyAAG&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;7010z000001D2KbAAK&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;7010z000001D7YaAAK&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;70138000000eNsuAAE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;70138000000jPOAAA2&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;70138000000rmMtAAI&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;70138000000y8qzAAA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;70138000000zcJIAAY&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;70138000000zWvdAAE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;70138000001BcUwAAK&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;70138000001MCNgAAO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;70138000001QJYwAAO&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7010z000001D7q0AAC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;7010z000001DAr5AAG&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;70138000000jPNMAA2&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;70138000000qRIJAA2&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;70138000000y8ooAAA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;70138000000zc0eAAA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;70138000000zWB4AAM&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;70138000001Bbe2AAC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;70138000001BYLLAA4&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;70138000001QIGJAA4&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;7010z000001D6c6AAC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;7010z000001D8vsAAC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;70138000000jOhsAAE&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;70138000000jPOPAA2&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;70138000000rmZnAAI&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;70138000000y8vrAAA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;70138000000zd07AAA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;70138000000zXhDAAU&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;70138000001BjuzAAC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;70138000001MEQFAA4&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;70138000001QNFOAA4&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;7010z000001D6jCAAS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;7010z000001D86YAAS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;70138000000jPNgAAM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;70138000000jPPXAA2&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;70138000000y8mnAAA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;70138000000y9GVAAY&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;70138000000zaPeAAI&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;70138000000zUXZAA2&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;70138000001BaasAAC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;70138000001BrgqAAC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;70138000001MHVfAAO&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;7010z000001D6YYAA0&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;7010z000001D89XAAS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;70138000000jPNHAA2&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;70138000000jPPcAAM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;70138000000qRhxAAE&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;70138000000y8msAAA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;70138000000zb6xAAA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;70138000000zUYwAAM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;70138000001Bab2AAC&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;70138000001Bs7IAAS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;70138000001QHgaAAG&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;7010z0000019qVjAAI&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;7010z000001D7S3AAK&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;70138000000jPNqAAM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;70138000000qRITAA2&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;70138000000y8pcAAA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;70138000000zc0jAAA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;70138000000zWdKAAU&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;70138000001Bbe7AAC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;70138000001BZh9AAG&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;70138000001QIRWAA4&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;7010z000001D7WAAA0&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;70138000000eMX2AAM&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;70138000000jPNWAA2&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;70138000000rmEpAAI&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;70138000000y8qGAAQ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;70138000000zc0ZAAQ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;70138000000zWdUAAU&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;70138000001BcH4AAK&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;70138000001E23kAAC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;70138000001QIxaAAG&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;7010z000001D36KAAS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;7010z000001D6FbAAK&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;70138000000jOsCAAU&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;70138000000jPOZAA2&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;70138000000rnDvAAI&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;70138000000y9WQAAY&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;70138000000zU2qAAE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;70138000000zYxzAAE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;70138000001BkPUAA0&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;70138000001MGAvAAO&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;70150000000dToWAAU&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;7010z000001D20vAAC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;7010z000001D6cGAAS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;70138000000jOkcAAE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;70138000000jPOtAAM&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;70138000000rn2dAAA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;70138000000y8wGAAQ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;70138000000zSXIAA2&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;70138000000zYCTAA2&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;70138000001Bjy3AAC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;70138000001MEYTAA4&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;70150000000bCVIAA2&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;7010z000001D2t0AAC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;7010z000001D8DeAAK&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;70138000000eNt4AAE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;70138000000jPOeAAM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;70138000000rmO1AAI&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;70138000000y8sHAAQ&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;70138000000zcLYAAY&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;70138000000zWvYAAU&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;70138000001BevpAAC&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;70138000001MCO5AAO&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;70138000001QKA6AAO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;7010z000001D357AAC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;7010z000001D7prAAC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;70138000000jPNlAAM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;70138000000qRI4AAM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;70138000000y8nHAAQ&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;70138000000zb01AAA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;70138000000zVxCAAU&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;70138000001Bb94AAC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;70138000001BsVtAAK&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;70138000001QI5pAAG&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;000000000000000AAA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;7010z000001D6FMAA0&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;7010z000001D83eAAC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;70138000000jPLuAAM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;70138000000jPP3AAM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;70138000000y8m9AAA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;70138000000zaj5AAA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;70138000000zUA6AAM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;70138000000zZK5AAM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;70138000001BlciAAC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;70138000001MGxaAAG&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;7010z000001D2xcAAC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;7010z000001D8DjAAK&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;70138000000eNx6AAE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;70138000000jPOFAA2&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;70138000000rmWUAAY&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;70138000000y8sMAAQ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;70138000000zcvqAAA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;70138000000zWzVAAU&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;70138000001BgCQAA0&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;70138000001MCPcAAO&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;70138000001QKFGAA4&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Donation_Type__c:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Individual: Foundation&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Grant&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Unrestricted Grant&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Individual Donor&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Corporate Donor&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Individual: Donor Advised Fund&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Program Partner&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Individual: Employee Giving&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Employment Opportunities&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Restricted Grant&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Event&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1106196694754861060:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>false</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>true</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;USA&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Amount Donations By Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column datatype='real' name='[Amount]' role='measure' type='quantitative' />
+            <column caption='Close Date' datatype='datetime' name='[CloseDate]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Donation_Type__c]' role='dimension' type='nominal' />
+            <column-instance column='[Amount]' derivation='Avg' name='[avg:Amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Donation_Type__c]' derivation='None' name='[none:Donation_Type__c:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Amount]' derivation='Sum' name='[sum:Amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CloseDate]' derivation='Year' name='[yr:CloseDate:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]' included-values='in-range-or-null'>
+            <min>25.0</min>
+            <max>1000000.0</max>
+          </filter>
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]</rows>
+        <cols>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[yr:CloseDate:ok]</cols>
+      </table>
+      <simple-id uuid='{732E44F3-2087-46DF-8B0F-F7C9A06FB801}' />
+    </worksheet>
+    <worksheet name='Donations By CampainId'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Monthly Donations by Campaign</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Monthly_Donation__c]' role='measure' type='quantitative' />
+            <column-instance column='[CampaignId]' derivation='None' name='[none:CampaignId:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Monthly_Donation__c]' derivation='Sum' name='[sum:Monthly_Donation__c:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]' direction='ASC' using='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]' />
+          <filter class='quantitative' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>551</max>
+          </filter>
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]</rows>
+        <cols>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]</cols>
+      </table>
+      <simple-id uuid='{F90BEAD2-3DAD-48E1-8ABE-5669538510CE}' />
+    </worksheet>
+    <worksheet name='Donations By CampainId (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Donation_Type__c]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Monthly_Donation__c]' role='measure' type='quantitative' />
+            <column-instance column='[CampaignId]' derivation='None' name='[none:CampaignId:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Donation_Type__c]' derivation='None' name='[none:Donation_Type__c:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Monthly_Donation__c]' derivation='Sum' name='[sum:Monthly_Donation__c:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]' direction='ASC' using='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]' />
+          <filter class='quantitative' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>551</max>
+          </filter>
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]</rows>
+        <cols>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]</cols>
+      </table>
+      <simple-id uuid='{A7CE2BA3-6C97-41C7-B137-C312F14B8277}' />
+    </worksheet>
+    <worksheet name='Donations By CampainId (3)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>How much did the campaigns bring in ?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column datatype='real' name='[Amount]' role='measure' type='quantitative' />
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column-instance column='[CampaignId]' derivation='None' name='[none:CampaignId:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Amount]' derivation='Sum' name='[sum:Amount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]' direction='DESC' using='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]' />
+              <wedge-size column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' />
+              <size column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5932043790817261' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9A40115C-43B8-450D-9C8C-6612B0461F95}' />
+    </worksheet>
+    <worksheet name='Donations By CampainId (5)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Power of Grants</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column datatype='real' name='[Amount]' role='measure' type='quantitative' />
+            <column caption='IsGrant' datatype='boolean' name='[Calculation_1106196694754861060]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([Donation_Type__c] , &apos;Grant&apos;) THEN TRUE ELSE FALSE END' />
+            </column>
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Donation_Type__c]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1106196694754861060]' derivation='None' name='[none:Calculation_1106196694754861060:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CampaignId]' derivation='None' name='[none:CampaignId:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Amount]' derivation='Sum' name='[sum:Amount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]'>
+            <groupfilter function='member' level='[none:CampaignId:nk]' member='&quot;000000000000000AAA&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]' direction='DESC' using='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' />
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Calculation_1106196694754861060:nk]' />
+              <wedge-size column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' />
+              <size column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{06BF219C-E214-4367-83CB-F096C36AB013}' />
+    </worksheet>
+    <worksheet name='Donations By CampainId (6)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Who Donated in the AAA Campaign?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column datatype='real' name='[Amount]' role='measure' type='quantitative' />
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Donation_Type__c]' role='dimension' type='nominal' />
+            <column-instance column='[CampaignId]' derivation='None' name='[none:CampaignId:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Donation_Type__c]' derivation='None' name='[none:Donation_Type__c:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Amount]' derivation='Sum' name='[sum:Amount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]'>
+            <groupfilter function='member' level='[none:CampaignId:nk]' member='&quot;000000000000000AAA&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]' direction='DESC' using='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' />
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' />
+              <wedge-size column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' />
+              <size column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{BCBEDBFE-48C0-4EB4-80AC-3481B781AF96}' />
+    </worksheet>
+    <worksheet name='Donations By Geography'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column datatype='real' name='[Amount]' role='measure' type='quantitative' />
+            <column caption='AmountByTotalCampains' datatype='real' name='[Calculation_1106196694746959872]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Amount])/ COUNT([CampaignId])' />
+            </column>
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column-instance column='[stayclassy__cc_state__c]' derivation='None' name='[none:stayclassy__cc_state__c:nk]' pivot='key' type='nominal' />
+            <column caption='Stayclassy__Cc_State__C' datatype='string' name='[stayclassy__cc_state__c]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_1106196694746959872]' derivation='User' name='[usr:Calculation_1106196694746959872:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:stayclassy__cc_state__c:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:stayclassy__cc_state__c:nk]' />
+              <groupfilter function='member' level='[none:stayclassy__cc_state__c:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:stayclassy__cc_state__c:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Longitude (generated)]' field-type='quantitative' max='-7487198.4421055606' min='-13896618.350269275' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Latitude (generated)]' field-type='quantitative' max='7128771.7411193978' min='2302855.4805884236' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:stayclassy__cc_state__c:nk]' />
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[usr:Calculation_1106196694746959872:qk]' />
+              <geometry column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Latitude (generated)]</rows>
+        <cols>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{D4B2DADC-4052-49F5-8BC8-1B6228624B3E}' />
+    </worksheet>
+    <worksheet name='Number of Campains By Geo'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column-instance column='[CampaignId]' derivation='Count' name='[cnt:CampaignId:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[stayclassy__cc_state__c]' derivation='None' name='[none:stayclassy__cc_state__c:nk]' pivot='key' type='nominal' />
+            <column caption='Stayclassy__Cc_State__C' datatype='string' name='[stayclassy__cc_state__c]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:stayclassy__cc_state__c:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:stayclassy__cc_state__c:nk]' />
+              <groupfilter function='member' level='[none:stayclassy__cc_state__c:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:stayclassy__cc_state__c:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Longitude (generated)]' field-type='quantitative' max='32946752.866142772' min='25565043.329162743' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Latitude (generated)]' field-type='quantitative' max='7646285.9755782783' min='2088292.8037383996' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:stayclassy__cc_state__c:nk]' />
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[cnt:CampaignId:qk]' />
+              <geometry column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Latitude (generated)]</rows>
+        <cols>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{6A79BA7E-6287-43E7-AD23-1613CDE3963C}' />
+    </worksheet>
+    <worksheet name='Number of Donations By Time'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column datatype='real' name='[Amount]' role='measure' type='quantitative' />
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column caption='Close Date' datatype='datetime' name='[CloseDate]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Donation_Type__c]' role='dimension' type='nominal' />
+            <column-instance column='[Amount]' derivation='Avg' name='[avg:Amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CampaignId]' derivation='Count' name='[cnt:CampaignId:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CloseDate]' derivation='Month' name='[mn:CloseDate:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Donation_Type__c]' derivation='None' name='[none:Donation_Type__c:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]' included-values='in-range-or-null'>
+            <min>25.0</min>
+            <max>1000000.0</max>
+          </filter>
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' />
+              <lod column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[cnt:CampaignId:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]</rows>
+        <cols>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[mn:CloseDate:ok]</cols>
+      </table>
+      <simple-id uuid='{78F2D058-9FC8-4AFA-A9D9-E7D4B259BC76}' />
+    </worksheet>
+    <worksheet name='Number of Donations By Time (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Proportion of Campaigns and Amount </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column datatype='real' name='[Amount]' role='measure' type='quantitative' />
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column caption='Close Date' datatype='datetime' name='[CloseDate]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Donation_Type__c]' role='dimension' type='nominal' />
+            <column-instance column='[Amount]' derivation='Avg' name='[avg:Amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Donation_Type__c]' derivation='None' name='[none:Donation_Type__c:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CampaignId]' derivation='Count' name='[pcto:cnt:CampaignId:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Amount]' derivation='Sum' name='[pcto:sum:Amount:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[CloseDate]' derivation='Year' name='[yr:CloseDate:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]' included-values='in-range-or-null'>
+            <min>25.0</min>
+            <max>1000000.0</max>
+          </filter>
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[pcto:cnt:CampaignId:qk:2]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[pcto:sum:Amount:qk:2]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.04siz9x0nyv3jw1bdpwac17ahmd1].[pcto:cnt:CampaignId:qk:2] + [federated.04siz9x0nyv3jw1bdpwac17ahmd1].[pcto:sum:Amount:qk:2])</rows>
+        <cols>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[yr:CloseDate:ok]</cols>
+      </table>
+      <simple-id uuid='{DE204E54-34EB-4D29-B1E6-0DB30219248C}' />
+    </worksheet>
+    <worksheet name='Sheet 12'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column datatype='datetime' name='[Date_Thank_You_Letter_Sent__c]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Date_of_Donation__c]' role='dimension' type='nominal' />
+            <column-instance column='[Date_Thank_You_Letter_Sent__c]' derivation='Day' name='[dy:Date_Thank_You_Letter_Sent__c:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date_of_Donation__c]' derivation='None' name='[none:Date_of_Donation__c:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Date_of_Donation__c:nk]</rows>
+        <cols>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[dy:Date_Thank_You_Letter_Sent__c:ok]</cols>
+      </table>
+      <simple-id uuid='{4B3122F8-3BDA-4C80-9899-79D37844EB75}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SalesForce_Opportunity' name='federated.04siz9x0nyv3jw1bdpwac17ahmd1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04siz9x0nyv3jw1bdpwac17ahmd1'>
+            <column datatype='real' name='[Amount]' role='measure' type='quantitative' />
+            <column caption='Campaign Id' datatype='string' name='[CampaignId]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Donation_Type__c]' role='dimension' type='nominal' />
+            <column-instance column='[CampaignId]' derivation='None' name='[none:CampaignId:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Donation_Type__c]' derivation='None' name='[none:Donation_Type__c:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Amount]' derivation='Sum' name='[sum:Amount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]'>
+            <groupfilter expression='SUM([Amount]) &gt; 0.' function='filter' user:ui-filter-by-field='true' user:ui-marker='filter-by'>
+              <groupfilter function='level-members' level='[none:CampaignId:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:CampaignId:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]</rows>
+        <cols>[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]</cols>
+      </table>
+      <simple-id uuid='{9E103B53-D469-41B1-8C10-8BC5732229AB}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' name='Donations By CampainId (3)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{DFF10D83-1FE5-4410-BDFE-1EB0ECE5D0B1}' />
+    </window>
+    <window class='worksheet' name='Donations By CampainId (6)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{1B086DB2-AB33-486D-91F4-D5A515412FB7}' />
+    </window>
+    <window class='worksheet' name='Donations By CampainId (5)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Calculation_1106196694754861060:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Amount:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{0D62E594-FB12-4EA3-A15B-5553656188DF}' />
+    </window>
+    <window class='worksheet' name='Number of Donations By Time (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{41E8DFB7-BC85-4FC6-9E82-42745BDF15A2}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Donations By CampainId'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{84E99A8D-1CB8-444E-A220-399F0C33E8F5}' />
+    </window>
+    <window class='worksheet' name='Donations By CampainId (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[sum:Monthly_Donation__c:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='2' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6CE7366B-F324-4532-8D37-028270F1E278}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='138'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D8B76B3C-C243-48AE-B1C3-2A8EDAC7B3FF}' />
+    </window>
+    <window class='worksheet' name='Number of Donations By Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{025D4C5B-18AB-4A52-8AAC-6F0117B33E4A}' />
+    </window>
+    <window class='worksheet' name='Amount Donations By Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[avg:Amount:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[none:Donation_Type__c:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{148A2C0E-8855-4A00-A982-0F525FD55E84}' />
+    </window>
+    <window class='worksheet' name='Number of Campains By Geo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[cnt:CampaignId:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{65E10A6D-2471-42E2-A5DF-36439724BA73}' />
+    </window>
+    <window class='worksheet' name='Donations By Geography'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.04siz9x0nyv3jw1bdpwac17ahmd1].[usr:Calculation_1106196694746959872:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{38492EC1-1DD5-4F8D-9E61-3E5E132A884A}' />
+    </window>
+    <window class='worksheet' name='Sheet 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{640C0A13-F01F-49DA-90A0-E5D085A404BB}' />
+    </window>
+  </windows>
+</workbook>
