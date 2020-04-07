@@ -63,6 +63,8 @@ Though all donations are updated in Salesforce, individual donations are done th
   - **Contacts**
     - Applicants
       - 2018 saw the highest number of applicants followed by 2016
+      - <img src="https://user-images.githubusercontent.com/6872080/78729000-e2335100-7906-11ea-9b8e-5d3d19fd9e8b.png" height="300">
+      - <img src="https://user-images.githubusercontent.com/6872080/78729073-13138600-7907-11ea-90fb-09995508b3d7.png" height="300">
 
 ### Modelling
 * Since we found that most of the data we have is categorical, it makes it harder to build predictive models specially regression models on variable of interest like Amount secured in a campaign.
